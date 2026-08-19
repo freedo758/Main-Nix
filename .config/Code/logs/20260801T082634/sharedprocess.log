@@ -1,0 +1,18 @@
+2026-08-01 08:27:31.712 [info] Getting Manifest... vscodevim.vim
+2026-08-01 08:27:32.007 [info] Installing extension: vscodevim.vim {"context":{"skipWalkthrough":true},"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/leo/.vscode/extensions/extensions.json","path":"/home/leo/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isBuiltin":false,"isApplicationScoped":false,"productVersion":{"version":"1.129.1","date":"2026-07-17T15:35:09Z"}}
+2026-08-01 08:27:34.682 [info] Extension signature verification result for vscodevim.vim: Success. Internal Code: 0. Executed: true. Duration: 1532ms.
+2026-08-01 08:27:34.701 [info] Extracted extension to file:///home/leo/.vscode/extensions/vscodevim.vim-1.32.4: vscodevim.vim
+2026-08-01 08:27:34.708 [info] Renamed to /home/leo/.vscode/extensions/vscodevim.vim-1.32.4
+2026-08-01 08:27:34.716 [info] Extension installed successfully: vscodevim.vim vscode-userdata:/home/leo/.vscode/extensions/extensions.json
+2026-08-01 08:27:47.334 [info] Getting Manifest... theqtcompany.qt-qml
+2026-08-01 08:27:47.816 [info] Installing extension: theqtcompany.qt-qml {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/leo/.vscode/extensions/extensions.json","path":"/home/leo/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isBuiltin":false,"isApplicationScoped":false,"productVersion":{"version":"1.129.1","date":"2026-07-17T15:35:09Z"}}
+2026-08-01 08:27:48.017 [info] Getting Manifest... theqtcompany.qt-core
+2026-08-01 08:27:48.181 [info] Installing extension: theqtcompany.qt-core {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/leo/.vscode/extensions/extensions.json","path":"/home/leo/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isBuiltin":false,"isApplicationScoped":false,"productVersion":{"version":"1.129.1","date":"2026-07-17T15:35:09Z"},"installGivenVersion":false,"context":{"dependecyOrPackExtensionInstall":true}}
+2026-08-01 08:27:49.778 [info] Extension signature verification result for theqtcompany.qt-qml: Success. Internal Code: 0. Executed: true. Duration: 322ms.
+2026-08-01 08:27:49.790 [info] Extracted extension to file:///home/leo/.vscode/extensions/theqtcompany.qt-qml-1.14.0: theqtcompany.qt-qml
+2026-08-01 08:27:49.796 [info] Renamed to /home/leo/.vscode/extensions/theqtcompany.qt-qml-1.14.0
+2026-08-01 08:27:51.440 [info] Extension signature verification result for theqtcompany.qt-core: Success. Internal Code: 0. Executed: true. Duration: 338ms.
+2026-08-01 08:27:51.639 [info] Extracted extension to file:///home/leo/.vscode/extensions/theqtcompany.qt-core-1.14.0: theqtcompany.qt-core
+2026-08-01 08:27:51.646 [info] Renamed to /home/leo/.vscode/extensions/theqtcompany.qt-core-1.14.0
+2026-08-01 08:27:51.655 [info] Extension installed successfully: theqtcompany.qt-qml vscode-userdata:/home/leo/.vscode/extensions/extensions.json
+2026-08-01 08:27:51.655 [info] Extension installed successfully: theqtcompany.qt-core vscode-userdata:/home/leo/.vscode/extensions/extensions.json

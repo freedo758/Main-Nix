@@ -1,0 +1,9 @@
+file:///home/leo/.config/quickshell/my%20Shell/shell.qml {"mtime":1785600892577,"ctime":1785587568591,"size":67,"etag":"3geq3sdoi25","orphaned":false,"typeId":""}
+// shell.qml
+import Quickshell
+
+Scope {
+  Bar {}
+  ClockWidget {}
+  
+}

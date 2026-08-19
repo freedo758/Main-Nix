@@ -1,0 +1,9 @@
+2026-08-01 08:26:35.055 [info] StorageMainService: creating application shared storage
+2026-08-01 08:26:35.090 [info] [shared storage] Creating shared storage database at '/home/leo/.vscode-shared/sharedStorage/state.vscdb' (wasCreated: true)
+2026-08-01 08:26:35.091 [info] [shared storage] Initializing fallback application storage (path: /home/leo/.config/Code/User/globalStorage/state.vscdb)
+2026-08-01 08:26:35.122 [info] [shared storage] Fallback application storage initialized with 3 items
+2026-08-01 08:26:35.122 [info] update#setState disabled
+2026-08-01 08:26:35.122 [info] update#ctor - updates are disabled as there is no update URL
+2026-08-01 08:32:40.407 [info] Extension host with pid 21600 exited with code: 0, signal: unknown.
+2026-08-01 08:32:41.007 [info] AgentHostProcessManager: agent host started
+2026-08-01 12:16:39.627 [info] Extension host with pid 23429 exited with code: 0, signal: unknown.

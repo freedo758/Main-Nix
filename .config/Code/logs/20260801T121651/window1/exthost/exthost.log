@@ -1,0 +1,11 @@
+2026-08-01 12:16:52.259 [info] Extension host with pid 121726 started
+2026-08-01 12:16:52.259 [info] Skipping acquiring lock for /home/leo/.config/Code/User/workspaceStorage/49be532d6a9653b27b6a1d849b1fe4bd.
+2026-08-01 12:16:52.267 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-08-01 12:16:52.281 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-08-01 12:16:52.349 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2026-08-01 12:16:52.355 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-08-01 12:16:52.372 [info] Eager extensions activated
+2026-08-01 12:16:52.375 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-08-01 12:16:52.376 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-08-01 12:16:52.384 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: 'onStartupFinished'
+2026-08-01 12:16:53.455 [error] Error: ENOENT: no such file or directory, open '/home/leo/.config/Code/User/globalStorage/vscodevim.vim/.registers'

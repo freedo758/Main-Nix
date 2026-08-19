@@ -1,0 +1,98 @@
+2026-08-01 08:26:35.887 [info] Started local extension host with pid 21600.
+2026-08-01 08:26:35.900 [info] Started initializing default profile extensions in extensions installation folder. file:///home/leo/.vscode/extensions
+2026-08-01 08:26:35.974 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/leo/.vscode/extensions
+2026-08-01 08:26:35.989 [error] [vscode.mermaid-markdown-features]: Extension 'vscode.mermaid-markdown-features' CANNOT use 'legacyToolReferenceFullNames' without the 'chatParticipantPrivate' API proposal enabled
+2026-08-01 08:26:36.073 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-08-01 08:26:36.181 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-08-01 08:26:38.739 [info] [perf] Render performance baseline is 11ms
+2026-08-01 08:26:41.073 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-08-01 08:27:06.486 [warning] [DefaultAccount] Managed settings fetch returned non-success status 404; falling back to local-only policy
+2026-08-01 08:27:07.945 [error] [Extension Host] (node:21600) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-08-01 08:27:08.176 [error] MainThreadChatAgents2#$updateAgent: No agent with handle 2 registered
+2026-08-01 08:27:08.235 [error] Cannot read properties of undefined (reading 'header'): TypeError: Cannot read properties of undefined (reading 'header')
+	at l9 (file:///nix/store/kdp9ssbgrgrnifjpha3pxbdpxb36pyay-vscode-1.129.1/lib/vscode/resources/app/extensions/copilot/node_modules/@github/copilot/sdk/index.js:60:155885)
+	at m9 (file:///nix/store/kdp9ssbgrgrnifjpha3pxbdpxb36pyay-vscode-1.129.1/lib/vscode/resources/app/extensions/copilot/node_modules/@github/copilot/sdk/index.js:60:156822)
+	at Fb (file:///nix/store/kdp9ssbgrgrnifjpha3pxbdpxb36pyay-vscode-1.129.1/lib/vscode/resources/app/extensions/copilot/node_modules/@github/copilot/sdk/index.js:60:157786)
+	at v9 (file:///nix/store/kdp9ssbgrgrnifjpha3pxbdpxb36pyay-vscode-1.129.1/lib/vscode/resources/app/extensions/copilot/node_modules/@github/copilot/sdk/index.js:60:158333)
+	at RT (file:///nix/store/kdp9ssbgrgrnifjpha3pxbdpxb36pyay-vscode-1.129.1/lib/vscode/resources/app/extensions/copilot/node_modules/@github/copilot/sdk/index.js:60:158994)
+	at $b (file:///nix/store/kdp9ssbgrgrnifjpha3pxbdpxb36pyay-vscode-1.129.1/lib/vscode/resources/app/extensions/copilot/node_modules/@github/copilot/sdk/index.js:62:3334)
+	at Ug (file:///nix/store/kdp9ssbgrgrnifjpha3pxbdpxb36pyay-vscode-1.129.1/lib/vscode/resources/app/extensions/copilot/node_modules/@github/copilot/sdk/index.js:62:3527)
+	at Object.get (file:///nix/store/kdp9ssbgrgrnifjpha3pxbdpxb36pyay-vscode-1.129.1/lib/vscode/resources/app/extensions/copilot/node_modules/@github/copilot/sdk/index.js:62:4180)
+	at file:///nix/store/kdp9ssbgrgrnifjpha3pxbdpxb36pyay-vscode-1.129.1/lib/vscode/resources/app/extensions/copilot/node_modules/@github/copilot/sdk/index.js:69:3098
+	at file:///nix/store/kdp9ssbgrgrnifjpha3pxbdpxb36pyay-vscode-1.129.1/lib/vscode/resources/app/extensions/copilot/node_modules/@github/copilot/sdk/index.js:60:496
+	at file:///nix/store/kdp9ssbgrgrnifjpha3pxbdpxb36pyay-vscode-1.129.1/lib/vscode/resources/app/extensions/copilot/node_modules/@github/copilot/sdk/index.js:71:15850
+	at file:///nix/store/kdp9ssbgrgrnifjpha3pxbdpxb36pyay-vscode-1.129.1/lib/vscode/resources/app/extensions/copilot/node_modules/@github/copilot/sdk/index.js:60:496
+	at file:///nix/store/kdp9ssbgrgrnifjpha3pxbdpxb36pyay-vscode-1.129.1/lib/vscode/resources/app/extensions/copilot/node_modules/@github/copilot/sdk/index.js:71:20149
+	at file:///nix/store/kdp9ssbgrgrnifjpha3pxbdpxb36pyay-vscode-1.129.1/lib/vscode/resources/app/extensions/copilot/node_modules/@github/copilot/sdk/index.js:60:496
+	at file:///nix/store/kdp9ssbgrgrnifjpha3pxbdpxb36pyay-vscode-1.129.1/lib/vscode/resources/app/extensions/copilot/node_modules/@github/copilot/sdk/index.js:75:26203
+	at file:///nix/store/kdp9ssbgrgrnifjpha3pxbdpxb36pyay-vscode-1.129.1/lib/vscode/resources/app/extensions/copilot/node_modules/@github/copilot/sdk/index.js:60:496
+	at file:///nix/store/kdp9ssbgrgrnifjpha3pxbdpxb36pyay-vscode-1.129.1/lib/vscode/resources/app/extensions/copilot/node_modules/@github/copilot/sdk/index.js:76:1041
+	at file:///nix/store/kdp9ssbgrgrnifjpha3pxbdpxb36pyay-vscode-1.129.1/lib/vscode/resources/app/extensions/copilot/node_modules/@github/copilot/sdk/index.js:60:496
+	at file:///nix/store/kdp9ssbgrgrnifjpha3pxbdpxb36pyay-vscode-1.129.1/lib/vscode/resources/app/extensions/copilot/node_modules/@github/copilot/sdk/index.js:2530:7117
+	at file:///nix/store/kdp9ssbgrgrnifjpha3pxbdpxb36pyay-vscode-1.129.1/lib/vscode/resources/app/extensions/copilot/node_modules/@github/copilot/sdk/index.js:60:496
+	at file:///nix/store/kdp9ssbgrgrnifjpha3pxbdpxb36pyay-vscode-1.129.1/lib/vscode/resources/app/extensions/copilot/node_modules/@github/copilot/sdk/index.js:2530:7220
+	at ModuleJob.run (node:internal/modules/esm/module_job:439:25)
+	at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:643:26)
+	at async FV.getPackage (/nix/store/kdp9ssbgrgrnifjpha3pxbdpxb36pyay-vscode-1.129.1/lib/vscode/resources/app/extensions/copilot/dist/extension.js:2974:15202)
+	at async FV.initLogger (/nix/store/kdp9ssbgrgrnifjpha3pxbdpxb36pyay-vscode-1.129.1/lib/vscode/resources/app/extensions/copilot/dist/extension.js:2974:15375)
+2026-08-01 08:27:08.239 [error] chatParticipant must be declared in package.json: claude-code
+2026-08-01 08:27:08.529 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot read properties of undefined (reading 'header')
+2026-08-01 08:27:08.529 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot read properties of undefined (reading 'header')
+2026-08-01 08:27:08.596 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot read properties of undefined (reading 'header')
+2026-08-01 08:27:08.596 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot read properties of undefined (reading 'header')
+2026-08-01 08:27:09.580 [warning] [DefaultAccount] Managed settings fetch returned non-success status 404; falling back to local-only policy
+2026-08-01 08:27:09.963 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot read properties of undefined (reading 'header')
+2026-08-01 08:27:09.963 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot read properties of undefined (reading 'header')
+2026-08-01 08:27:25.410 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot read properties of undefined (reading 'header')
+2026-08-01 08:27:25.410 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot read properties of undefined (reading 'header')
+2026-08-01 08:27:28.938 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot read properties of undefined (reading 'header')
+2026-08-01 08:27:28.938 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot read properties of undefined (reading 'header')
+2026-08-01 08:27:34.165 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot read properties of undefined (reading 'header')
+2026-08-01 08:27:34.165 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot read properties of undefined (reading 'header')
+2026-08-01 08:27:35.804 [error] An unknown error occurred. Please consult the log for more details.
+2026-08-01 08:28:01.028 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot read properties of undefined (reading 'header')
+2026-08-01 08:28:01.028 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot read properties of undefined (reading 'header')
+2026-08-01 08:28:05.437 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot read properties of undefined (reading 'header')
+2026-08-01 08:28:05.437 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot read properties of undefined (reading 'header')
+2026-08-01 08:28:35.065 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot read properties of undefined (reading 'header')
+2026-08-01 08:28:35.065 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot read properties of undefined (reading 'header')
+2026-08-01 08:29:00.113 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot read properties of undefined (reading 'header')
+2026-08-01 08:29:00.113 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot read properties of undefined (reading 'header')
+2026-08-01 08:29:08.528 [warning] SettingsEditor2: Settings not included in settingsLayout.ts: onboarding.developerMode, onboarding.enabled, extensions.requestTimeout, github.copilot.chat.agent.terminal.allowList, github.copilot.chat.agent.terminal.denyList, terminal.integrated.developer.devMode, terminal.integrated.developer.ptyHost.latency, terminal.integrated.developer.ptyHost.startupDelay, terminal.integrated.enableKittyKeyboardProtocol, terminal.integrated.enableWin32InputMode, chat.agents.copilotCli.hideExtensionHost, chat.agentHost.enabled, chat.agentHost.byokModels.enabled, chat.agentHost.claudeAgent.enabled, chat.agentHost.codexAgent.enabled, chat.agentHost.otel.captureContent, chat.agentHost.otel.dbSpanExporter.enabled, chat.agentHost.otel.enabled, chat.agentHost.otel.exporterType, chat.agentHost.otel.otlpEndpoint, chat.agentHost.otel.outfile, chat.agentHost.agentDebugLog.enabled, chat.agentHost.agentDebugLog.maxEventsInMemory, chat.agentHost.ahpJsonlLoggingEnabled, chat.agentHost.customTerminalTool.enabled, chat.agentHost.modelCapabilityOverrides, chat.agentHost.opus48Prompt.enabled, chat.agentHost.reasoningEffortOverride, chat.agentHost.sdkSandbox.enabled, chat.agents.claude.preferAgentHost, chat.agentsHandoffTip.mode, chat.artifacts.enabled, chat.artifacts.rules.byFilePath, chat.artifacts.rules.byMemoryFilePath, chat.artifacts.rules.byMimeType, chat.autopilot.advanced.enabled, chat.autoReply, chat.byokUtilityModelDefault, chat.contextUsage.enabled, chat.customizations.promptMigration.enabled, chat.customizations.structuredPreview.enabled, chat.defaultConfiguration, chat.defaultModel, chat.editing.openChangedFileInDiffEditor, chat.editing.revealNextChangeOnResolve, chat.experimental.collectInstructionsInExtension, chat.experimental.incrementalRendering.animationStyle, chat.experimental.incrementalRendering.buffering, chat.experimental.incrementalRendering.enabled, chat.experimental.permissionsSandboxToggle.enabled, chat.experimentalSessionsWindowOverride, chat.exploreAgent.defaultModel, chat.growthNotification.enabled, chat.newSession.defaultMode, chat.permissions.default, chat.persistentProgress.enabled, chat.planReview.inlineEditor.enabled, chat.pluginLocations, chat.plugins.enabled, chat.plugins.enabledPlugins, chat.plugins.marketplaces, chat.plugins.strictMarketplaces, chat.progressBorder.enabled, chat.sessionSync.enabled, chat.sessionSync.excludeRepositories, chat.subagents.allowInvocationsFromSubagents, chat.titleBar.openInAgentsWindow.enabled, chat.titleBar.signIn.enabled, chat.tools.riskAssessment.model, chat.turnStatusPills, chat.upvoteAnimation, chat.useClaudeHooks, chat.useCustomizationsInParentRepositories, chat.utilityModel, chat.utilitySmallModel, agents.voice.handsFree, agents.voice.showTranscript, agents.voice.speakResponses, agents.voice.turn.silenceMs, agents.voice.turn.stopPhrases, agents.voice.voice, imageCarousel.chat.enabled, imageCarousel.explorerContextMenu.enabled, accessibility.signals.chatResponseReceived, accessibility.signals.chatUserActionRequired, issueReporter.wizard.enabled, issueReporter.wizard.fullWorkspaceScan
+2026-08-01 08:29:14.363 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot read properties of undefined (reading 'header')
+2026-08-01 08:29:14.363 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot read properties of undefined (reading 'header')
+2026-08-01 08:29:19.626 [error] [Extension Host] Failed to fetch remote embeddings cache from https://embeddings.vscode-cdn.net/text-3-small/v1.129/settings/latest.txt
+2026-08-01 08:29:19.626 [error] [Extension Host] Response status: 404, status text: 
+2026-08-01 08:29:19.631 [error] [Extension Host] Failed to fetch remote embeddings cache from https://embeddings.vscode-cdn.net/text-3-small/v1.129/commands/latest.txt
+2026-08-01 08:29:19.631 [error] [Extension Host] Response status: 404, status text: 
+2026-08-01 08:29:19.872 [error] [Extension Host] Failed to fetch remote embeddings cache from https://embeddings.vscode-cdn.net/text-3-small/v1.129/settings/core.json
+2026-08-01 08:29:19.872 [error] [Extension Host] Response status: 404, status text: 
+2026-08-01 08:29:19.892 [error] [Extension Host] Failed to fetch remote embeddings cache from https://embeddings.vscode-cdn.net/text-3-small/v1.129/commands/core.json
+2026-08-01 08:29:19.892 [error] [Extension Host] Response status: 404, status text: 
+2026-08-01 08:29:30.257 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot read properties of undefined (reading 'header')
+2026-08-01 08:29:30.257 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot read properties of undefined (reading 'header')
+2026-08-01 08:31:14.998 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot read properties of undefined (reading 'header')
+2026-08-01 08:31:14.998 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot read properties of undefined (reading 'header')
+2026-08-01 08:32:05.102 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot read properties of undefined (reading 'header')
+2026-08-01 08:32:05.102 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot read properties of undefined (reading 'header')
+2026-08-01 08:32:28.284 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot read properties of undefined (reading 'header')
+2026-08-01 08:32:28.284 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot read properties of undefined (reading 'header')
+2026-08-01 08:32:40.396 [warning] Attempted to report in-progress status for unknown chat session type 'claude-code'
+2026-08-01 08:32:40.396 [warning] Attempted to report in-progress status for unknown chat session type 'copilot-cloud-agent'
+2026-08-01 08:32:40.396 [warning] Attempted to report in-progress status for unknown chat session type 'copilotcli'
+2026-08-01 08:32:40.812 [info] Started local extension host with pid 23429.
+2026-08-01 08:32:40.879 [error] [vscode.mermaid-markdown-features]: Extension 'vscode.mermaid-markdown-features' CANNOT use 'legacyToolReferenceFullNames' without the 'chatParticipantPrivate' API proposal enabled
+2026-08-01 08:32:41.002 [info] [AgentHost:renderer] Acquiring MessagePort to agent host...
+2026-08-01 08:32:41.010 [info] [AgentHost:renderer] MessagePort acquired, creating client...
+2026-08-01 08:32:41.011 [info] [AgentHost:renderer] Direct MessagePort connection established
+2026-08-01 08:32:41.104 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-08-01 08:32:41.194 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-08-01 08:32:41.378 [info] [AgentHost] Authenticating for resource: https://api.github.com
+2026-08-01 08:32:41.398 [info] [AgentHost] Authenticating for resource: https://api.github.com/repos
+2026-08-01 08:32:42.296 [error] An unknown error occurred. Please consult the log for more details.
+2026-08-01 08:32:43.467 [info] [perf] Render performance baseline is 11ms
+2026-08-01 08:32:46.104 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-08-01 09:56:33.025 [warning] [DefaultAccount] Managed settings fetch returned non-success status 404; falling back to local-only policy
+2026-08-01 10:56:35.060 [warning] [DefaultAccount] Managed settings fetch returned non-success status 404; falling back to local-only policy
+2026-08-01 12:01:50.833 [warning] [DefaultAccount] Managed settings fetch returned non-success status 404; falling back to local-only policy

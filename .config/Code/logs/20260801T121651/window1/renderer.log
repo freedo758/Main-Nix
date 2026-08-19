@@ -1,0 +1,20 @@
+2026-08-01 12:16:51.991 [info] Started local extension host with pid 121726.
+2026-08-01 12:16:52.023 [error] [vscode.mermaid-markdown-features]: Extension 'vscode.mermaid-markdown-features' CANNOT use 'legacyToolReferenceFullNames' without the 'chatParticipantPrivate' API proposal enabled
+2026-08-01 12:16:52.190 [info] [AgentHost:renderer] Acquiring MessagePort to agent host...
+2026-08-01 12:16:52.199 [info] [AgentHost:renderer] MessagePort acquired, creating client...
+2026-08-01 12:16:52.200 [info] [AgentHost:renderer] Direct MessagePort connection established
+2026-08-01 12:16:52.291 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-08-01 12:16:52.566 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-08-01 12:16:52.638 [info] [AgentHost] Authenticating for resource: https://api.github.com
+2026-08-01 12:16:52.656 [info] [AgentHost] Authenticating for resource: https://api.github.com/repos
+2026-08-01 12:16:53.455 [error] An unknown error occurred. Please consult the log for more details.
+2026-08-01 12:16:54.726 [info] [perf] Render performance baseline is 11ms
+2026-08-01 12:16:57.291 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-08-01 13:16:54.434 [warning] [DefaultAccount] Managed settings fetch returned non-success status 404; falling back to local-only policy
+2026-08-01 17:48:08.529 [warning] [DefaultAccount] Managed settings fetch returned non-success status 404; falling back to local-only policy
+2026-08-01 20:15:24.108 [warning] [DefaultAccount] Managed settings fetch returned non-success status 404; falling back to local-only policy
+2026-08-01 21:38:26.410 [warning] [DefaultAccount] Managed settings fetch returned non-success status 404; falling back to local-only policy
+2026-08-02 16:22:34.718 [warning] [DefaultAccount] Managed settings fetch returned non-success status 404; falling back to local-only policy
+2026-08-02 17:53:21.748 [warning] [DefaultAccount] Managed settings fetch returned non-success status 404; falling back to local-only policy
+2026-08-02 21:59:55.053 [warning] [DefaultAccount] Managed settings fetch returned non-success status 404; falling back to local-only policy
+2026-08-03 15:29:55.404 [warning] [DefaultAccount] Managed settings fetch returned non-success status 404; falling back to local-only policy

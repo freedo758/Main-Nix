@@ -1,0 +1,29 @@
+2026-08-01 12:16:52.441 [info] Agent Host process started successfully
+2026-08-01 12:16:52.441 [error] CodeExpectedError: ENOPRO: No file system provider found for resource 'vscode-userdata:/home/leo/.config/Code/User'
+    at xi.withProvider (file:///nix/store/kdp9ssbgrgrnifjpha3pxbdpxb36pyay-vscode-1.129.1/lib/vscode/resources/app/out/vs/platform/agentHost/node/agentHostMain.js:845:30627)
+    at async xi.doWatch (file:///nix/store/kdp9ssbgrgrnifjpha3pxbdpxb36pyay-vscode-1.129.1/lib/vscode/resources/app/out/vs/platform/agentHost/node/agentHostMain.js:845:43446)
+    at async file:///nix/store/kdp9ssbgrgrnifjpha3pxbdpxb36pyay-vscode-1.129.1/lib/vscode/resources/app/out/vs/platform/agentHost/node/agentHostMain.js:845:43136
+2026-08-01 12:16:52.441 [error] CodeExpectedError: ENOPRO: No file system provider found for resource 'vscode-userdata:/home/leo/.config/Code/User/settings.json'
+    at xi.withProvider (file:///nix/store/kdp9ssbgrgrnifjpha3pxbdpxb36pyay-vscode-1.129.1/lib/vscode/resources/app/out/vs/platform/agentHost/node/agentHostMain.js:845:30627)
+    at async xi.doWatch (file:///nix/store/kdp9ssbgrgrnifjpha3pxbdpxb36pyay-vscode-1.129.1/lib/vscode/resources/app/out/vs/platform/agentHost/node/agentHostMain.js:845:43446)
+    at async file:///nix/store/kdp9ssbgrgrnifjpha3pxbdpxb36pyay-vscode-1.129.1/lib/vscode/resources/app/out/vs/platform/agentHost/node/agentHostMain.js:845:43136
+2026-08-01 12:16:52.444 [info] AgentService initialized
+2026-08-01 12:16:52.449 [info] Registering agent provider: copilotcli
+2026-08-01 12:16:52.452 [info] Registering agent provider: claude
+2026-08-01 12:16:52.453 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-08-01 12:16:52.453 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-08-01 12:16:52.469 [info] [CommandAutoApprover] Tree-sitter initialized successfully
+2026-08-01 12:16:52.518 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-08-01 12:16:52.639 [info] [Copilot] Auth token updated
+2026-08-01 12:16:52.640 [info] [Copilot] Listing models...
+2026-08-01 12:16:52.640 [info] [Copilot] Starting CopilotClient...
+2026-08-01 12:16:52.655 [info] [ClaudeProxyService] listening on http://127.0.0.1:38687
+2026-08-01 12:16:52.655 [info] [Claude] Auth token updated
+2026-08-01 12:16:52.656 [info] [Copilot] Listing sessions...
+2026-08-01 12:16:52.656 [info] [Claude] SDK not downloaded yet; deferring session list until a session triggers the download
+2026-08-01 12:16:55.088 [info] [Copilot] Set CLI env: GITHUB_COPILOT_INTEGRATION_ID=vscode-chat
+2026-08-01 12:16:55.227 [info] [Copilot] Resolved CLI path: /nix/store/kdp9ssbgrgrnifjpha3pxbdpxb36pyay-vscode-1.129.1/lib/vscode/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/index.js
+2026-08-01 12:16:55.533 [info] [Copilot] CopilotClient started successfully
+2026-08-01 12:16:55.534 [info] [Copilot] Found 0 sessions
+2026-08-01 12:16:55.933 [info] [Claude] Models refreshed. Count: 0, 
+2026-08-01 12:16:56.391 [info] [Copilot] Found 1 models: Auto
