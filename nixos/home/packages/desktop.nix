@@ -6,17 +6,6 @@ let
   });
 in
 {
-  imports = [
-    inputs.chillpill-shell.homeManagerModules.default
-];
-
-  programs.chillpill-shell = {
-    enable = true;
-    settings = {
-      clockFormat = "HH:mm";
-      # Other options from config.jsonc
-    };
-  };
 
 
  # Packages that don't warrant their own module.

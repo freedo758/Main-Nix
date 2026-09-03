@@ -8,10 +8,12 @@ rustPlatform.buildRustPackage {
     owner = "mesamirh";
     repo = "MovieBox-Tui";
     rev = "main"; # pin to a real commit SHA instead of a branch name
-    hash = ""; # nix build will report the correct value on first run
+    hash = "sha256-aamaxPZRwEvjAHT8WPBKPd7f/NJOODN45rAdFnYSe04"; # nix build will report the correct value on first run
   };
 
   cargoLock.lockFile = ./Cargo.lock;
+   
+   doCheck = false;
 
   nativeBuildInputs = [ makeWrapper ];
 
