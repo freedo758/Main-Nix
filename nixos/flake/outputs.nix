@@ -1,4 +1,4 @@
-{ self, nixpkgs, home-manager, zen-browser,   ... }@inputs:
+{ self, nixpkgs, home-manager, chillpill-shell, zen-browser,   ... }@inputs:
 
 let
   system = "x86_64-linux";

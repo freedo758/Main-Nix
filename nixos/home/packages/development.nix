@@ -9,5 +9,6 @@
     delta
     lazydocker
     lazygit
+    cargo
   ];
 }

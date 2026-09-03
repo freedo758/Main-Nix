@@ -1,25 +1,33 @@
-{ config, pkgs, inputs, ... }:
+ { config, pkgs, inputs, ... }:
 
 let
-  # nixpkgs' quickshell only links against qtbase/qtdeclarative/qtwayland/qtsvg,
-  # so QtMultimedia (needed for qs-wallpaper-picker's video wallpaper preview)
-  # isn't on its QML import path. wrapQtAppsHook (already in quickshell's
-  # nativeBuildInputs) derives that path from buildInputs, so adding
-  # qt6.qtmultimedia here is enough for it to get picked up automatically.
   quickshell' = pkgs.quickshell.overrideAttrs (old: {
     buildInputs = old.buildInputs ++ [ pkgs.qt6.qtmultimedia ];
   });
 in
 {
-  # Packages that don't warrant their own module.
+  imports = [
+    inputs.chillpill-shell.homeManagerModules.default
+];
+
+  programs.chillpill-shell = {
+    enable = true;
+    settings = {
+      clockFormat = "HH:mm";
+      # Other options from config.jsonc
+    };
+  };
+
+
+ # Packages that don't warrant their own module.
   home.packages = with pkgs; [
     awww
 
+    #discord 
+    vesktop
     # Browser
     inputs.zen-browser.packages.${pkgs.stdenv.hostPlatform.system}.default
-     
-    
-       
+
     # Editors & terminal
     kitty
 

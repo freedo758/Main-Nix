@@ -10,6 +10,7 @@
     obs-studio
     #    handbrake
     vlc
+    moviebox-tui
 
     # Better Yazi previews
     ffmpegthumbnailer
